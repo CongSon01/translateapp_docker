@@ -1,0 +1,10 @@
+services:
+  nginx:
+    build:
+      context: .
+    ports:
+      - 3000:80
+    volumes:
+      - ../../fontend/build:/usr/share/nginx/html
+
+# docker compose -p trans_fontend-nginx up
