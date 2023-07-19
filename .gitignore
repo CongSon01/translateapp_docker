@@ -3,7 +3,7 @@
 backend/.venv
 # dependencies
 fontend/node_modules
-fontend/.pnp
+.pnp
 .pnp.js
 
 # testing
